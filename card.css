@@ -1,0 +1,96 @@
+        *
+        {
+            box-sizing: border-box;
+        }
+        .header_gallery h2
+        {
+            margin: 0 10px 0 10px;
+            vertical-align: middle;
+            padding: 10px;
+            
+        }
+        .header_gallery
+        {
+            display: block;
+            background-color: rgb(218, 209, 221);
+            width: auto;
+            height: auto;
+            border-radius: 6px;
+            margin: 0 3%;
+            letter-spacing: 3px;
+        }
+        .card img
+        {
+            display: block;
+            width: auto;
+            height: 500px;
+            margin: 0px auto;
+            padding: 0px 0px;
+            border-radius: 6px;
+            max-width: 100%;
+        }
+        .card
+        {
+            background-color: rgb(229, 223, 231);
+            width: 300px;
+            overflow: hidden;
+            height: auto ;
+            box-shadow : 10px 10px 10px lightgray;
+            display: inline-block;
+            margin: 10px;
+            /* padding: 10px; */
+            border-radius: 9px;
+            vertical-align: middle;
+            
+        }
+        .img_container
+        {
+            height: 300px;
+            /* border-radius: 6px; */
+            overflow: hidden;
+        }
+        .container p
+        {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            margin-bottom: 20px;
+            margin-top: 8px;
+            text-shadow: 3px 3px 3px lightgray;
+            
+        }
+        .container h3
+        {
+            text-align: center;
+            font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            color: rgb(200, 173, 230);
+            margin-bottom: 8px;
+            text-shadow: 3px 3px 3px lightgray;
+        }
+        .card:hover img
+        {
+            /* height: 310px; */
+            transform: scale(1.30);
+        }
+        .card:hover
+        {
+            transform: scale(1.02);
+        }
+        .header_eunha_gallery:hover
+        {
+            transform: scale(1.01);
+        }
+        body
+        {
+            text-align: center;
+            background-color: rgb(238, 238, 238);
+        }
+        h2
+        {
+            font-size: 45px;
+            font-family: Impact, 'Arial Narrow Bold', sans-serif ;
+            color: rgb(137, 78, 145);
+            text-shadow: 3px 3px 4px silver;
+        }
+     
